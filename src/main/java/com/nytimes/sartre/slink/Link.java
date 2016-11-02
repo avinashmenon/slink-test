@@ -5,7 +5,7 @@ package com.nytimes.sartre.slink;
  */
 public class Link {
     public String getLink() {
-        System.out.println("Inside get link");
+        System.out.println("Inside get link do we actually get there");
         return null;
     }
 }
