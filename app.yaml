@@ -1,3 +1,2 @@
 runtime: java
-service: slink-test
 threadsafe: true
