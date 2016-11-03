@@ -1,4 +1,3 @@
-vm: true
 runtime: java
 module: default
 threadsafe: true
