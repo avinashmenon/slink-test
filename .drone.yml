@@ -1,0 +1,10 @@
+build:
+  image: java:openjdk-8
+  environment:
+    - GRADLE_USER_HOME=~/.gradle
+  commands:
+    - ./gradlew build
+    - ./gradlew test
+deploy:
+  appengine:
+    app: nyt-slinktest-dev
