@@ -1,0 +1,4 @@
+runtime: java
+vm: true
+module: default
+threadsafe: true
