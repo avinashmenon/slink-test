@@ -4,3 +4,6 @@ build:
     - GRADLE_USER_HOME=~/.gradle
   commands:
     - ./gradlew build
+deploy:
+  appengine:
+    app: nyt-slinktest-dev
